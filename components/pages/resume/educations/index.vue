@@ -7,12 +7,12 @@
     <!-- /title -->
 
     <!-- ediucations -->
-    <Education
+    <PageResumeEducationsItem
       title="Islamic Azad University, Parand Branch"
       date="2020"
       degree="Bachelor's degree, Computer Engineering"
     />
-    <Education
+    <PageResumeEducationsItem
       title="Noorani poor"
       date="2017 - 2019"
       degree="High School Diploma, Computer Science"

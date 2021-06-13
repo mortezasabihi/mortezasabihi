@@ -1,8 +1,28 @@
 <template>
-  <div class="flex items-center mb-4">
+  <div
+    class="
+      flex
+      items-center
+      mb-4
+      transform
+      hover:scale-105
+      transition
+      duration-300
+      ease-in-out
+    "
+  >
     <!-- icon -->
     <div
-      class="w-16 h-16 bg-gray-300 flex items-center justify-center mr-6 rounded-md"
+      class="
+        w-16
+        h-16
+        bg-gray-300
+        flex
+        items-center
+        justify-center
+        mr-6
+        rounded-md
+      "
     >
       <font-awesome-icon
         :icon="['fas', 'university']"
@@ -30,7 +50,7 @@
 
 <script>
 export default {
-  name: 'Education',
+  name: 'EducationItem',
   props: {
     /**
      * Title
@@ -48,6 +68,10 @@ export default {
       required: true,
       type: String,
     },
+    /**
+     * Degree
+     * @type { string }
+     */
     degree: {
       required: true,
       type: String,

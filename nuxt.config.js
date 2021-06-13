@@ -61,8 +61,7 @@ export default {
       // },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap',
       },
     ],
   },
@@ -79,7 +78,11 @@ export default {
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
    */
-  components: true,
+  components: [
+    { path: '~/components/layout/', prefix: 'layout' },
+    { path: '~/components/pages/', prefix: 'page' },
+    { path: '~/components/ui/', prefix: 'ui' },
+  ],
   /*
    ** Nuxt.js dev-modules
    */

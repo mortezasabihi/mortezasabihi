@@ -1,19 +1,19 @@
 <template>
   <div class="bg-white p-12 rounded-lg mb-12">
     <!-- about me -->
-    <AboutMe />
+    <PageResumeAboutMe />
     <!-- /about me -->
 
     <!-- skills -->
-    <Skills />
+    <PageResumeSkills />
     <!-- /skills -->
 
     <!-- experiences -->
-    <Experiences />
+    <PageResumeExperiences />
     <!-- /experiences -->
 
     <!-- educations -->
-    <Educations />
+    <PageResumeEducations />
     <!-- /educations -->
   </div>
 </template>

@@ -10,7 +10,23 @@
         :key="index"
         :href="item.url"
         target="_blank"
-        class="w-12 h-12 flex items-center justify-center rounded-full hover:bg-white focus:bg-white text-lg transform hover:scale-150 focus:scale-150 transition ease-in-out duration-150"
+        class="
+          w-12
+          h-12
+          flex
+          items-center
+          justify-center
+          rounded-full
+          hover:bg-white
+          focus:bg-white
+          text-lg
+          transform
+          hover:scale-150
+          focus:scale-150
+          transition
+          ease-in-out
+          duration-150
+        "
       >
         <font-awesome-icon :icon="['fab', item.icon]" />
       </a>

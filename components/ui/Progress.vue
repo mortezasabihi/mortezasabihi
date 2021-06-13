@@ -9,7 +9,7 @@
       <div>{{ percentage }}%</div>
       <!-- /percentage -->
     </div>
-    <div class="bg-gray-400 flex-1 p-1 relative">
+    <div class="bg-gray-300 flex-1 p-1 relative">
       <!-- progress bar -->
       <div
         :style="{ width: `${percentage}%` }"

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero />
+    <PageIndexHero />
   </div>
 </template>
 

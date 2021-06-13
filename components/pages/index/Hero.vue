@@ -2,7 +2,17 @@
   <section class="p-12 bg-white rounded-lg shadow-2xl mb-12">
     <div class="flex flex-wrap items-center">
       <div
-        class="w-full lg:w-4/12 md:w-4/12 mb-16 sm:mb-16 md:mb-0 lg:mb-0 xl:mb-0 px-4"
+        class="
+          w-full
+          lg:w-4/12
+          md:w-4/12
+          mb-16
+          sm:mb-16
+          md:mb-0
+          lg:mb-0
+          xl:mb-0
+          px-4
+        "
       >
         <!-- avatar -->
         <img

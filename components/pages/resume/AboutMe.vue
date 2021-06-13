@@ -20,7 +20,7 @@
       </li>
       <li class="flex items-center">
         <strong class="w-32 uppercase">Age:</strong>
-        <span class="tracking-wide">20</span>
+        <span class="tracking-wide">{{ calculateAge }}</span>
       </li>
       <li class="flex items-center">
         <strong class="w-32 uppercase">Location:</strong>
@@ -40,6 +40,16 @@ export default {
     ...mapGetters({
       github: 'getGithub',
     }),
+    calculateAge() {
+      const today = new Date()
+      const birthDate = new Date('2001-03-27')
+      let age = today.getFullYear() - birthDate.getFullYear()
+      const m = today.getMonth() - birthDate.getMonth()
+      if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--
+      }
+      return age
+    },
   },
 }
 </script>

@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white p-12 rounded-lg mb-12">
     <!-- form -->
-    <Form class="mb-8" />
+    <PageContactForm class="mb-8" />
     <!-- /form -->
 
     <!-- email -->

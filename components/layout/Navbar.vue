@@ -1,7 +1,16 @@
 <template>
   <nav class="mb-16">
     <ul
-      class="flex justify-center flex-col md:flex-row text-center leading-loose md:leading-normal animate__animated animate__fadeInRight"
+      class="
+        flex
+        justify-center
+        flex-col
+        md:flex-row
+        text-center
+        leading-loose
+        md:leading-normal
+        animate__animated animate__fadeInRight
+      "
     >
       <li v-for="(link, index) in links" :key="index">
         <nuxt-link

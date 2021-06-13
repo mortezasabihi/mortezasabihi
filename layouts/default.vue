@@ -1,11 +1,11 @@
 <template>
   <div class="container mx-auto px-8 lg:max-w-screen-md md:max-w-screen-sm">
     <!-- header -->
-    <Header />
+    <LayoutHeader />
     <!-- /header -->
 
     <!-- navbar -->
-    <Navbar />
+    <LayoutNavbar />
     <!-- /navbar -->
 
     <main>
@@ -14,7 +14,7 @@
       </div>
 
       <!-- social media -->
-      <SocialMedia />
+      <LayoutSocialMedia />
       <!-- /social media -->
     </main>
   </div>
@@ -25,7 +25,8 @@ export default {
   name: 'DefaultLayout',
   head: {
     bodyAttrs: {
-      class: 'font-body bg-indigo-700 overflow-x-hidden',
+      class:
+        'font-body bg-gradient-to-b md:bg-gradient-to-r from-indigo-600 to-pink-800 overflow-x-hidden',
     },
   },
 }

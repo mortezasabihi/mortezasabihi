@@ -105,7 +105,7 @@ export default {
     meta: {
       name: undefined,
       description: undefined,
-      theme_color: '#4c51bf',
+      theme_color: '#4f46e5',
       ogImage: {
         path: 'https://mortezasabihi.com/avatar.png',
         type: 'image/png',

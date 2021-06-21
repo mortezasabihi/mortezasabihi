@@ -8,6 +8,32 @@
     <LayoutNavbar />
     <!-- /navbar -->
 
+    <a
+      v-if="$route.path === '/resume'"
+      download
+      href="~/statics/resume.pdf"
+      target="_blank"
+      class="
+        text-white
+        mb-10
+        px-5
+        py-2
+        text-lg
+        tracking-wider
+        border-2 border-white
+        rounded-full
+        hover:bg-white hover:text-indigo-600
+        transition
+        transform
+        hover:scale-110
+        block
+        md:hidden
+        text-center
+        animate__animated animate__fadeIn
+      "
+      >Get My Resume</a
+    >
+
     <main>
       <div class="animate__animated animate__fadeIn">
         <Nuxt />
@@ -17,6 +43,33 @@
       <LayoutSocialMedia />
       <!-- /social media -->
     </main>
+
+    <a
+      download
+      href="~/statics/resume.pdf"
+      target="_blank"
+      class="
+        text-white
+        fixed
+        bottom-0
+        right-0
+        mr-14
+        mb-14
+        px-5
+        py-2
+        text-lg
+        tracking-wider
+        border-2 border-white
+        rounded-full
+        hover:bg-white hover:text-indigo-600
+        transition
+        transform
+        hover:scale-110
+        hidden
+        md:block
+      "
+      >Get My Resume</a
+    >
   </div>
 </template>
 

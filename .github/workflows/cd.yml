@@ -24,7 +24,6 @@ jobs:
         run: yarn
 
       - name: Generate
-        run: yarn run generate
         env:
           RECAPTCHA_SITE_KEY: ${{ secrets.RECAPTCHA_SITE_KEY }}
           RECAPTCHA_SECRET_KEY: ${{ secrets.RECAPTCHA_SECRET_KEY }}
@@ -33,6 +32,7 @@ jobs:
           EMAILJS_USER_ID: ${{ secrets.EMAILJS_USER_ID }}
           EMAILJS_TEMPLATE_ID: ${{ secrets.EMAILJS_TEMPLATE_ID }}
           EMAILJS_SERVICE_ID: ${{ secrets.EMAILJS_SERVICE_ID }}
+        run: yarn run generate
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

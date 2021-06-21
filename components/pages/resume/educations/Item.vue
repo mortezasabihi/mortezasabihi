@@ -1,27 +1,29 @@
 <template>
   <div
     class="
-      flex
-      items-center
       mb-4
       transform
       hover:scale-105
       transition
       duration-300
       ease-in-out
+      grid grid-cols-3
+      gap-4
+      md:flex
     "
   >
     <!-- icon -->
     <div
       class="
-        w-16
-        h-16
+        w-14
+        h-14
+        sm:w-16 sm:h-16
         bg-gray-300
         flex
         items-center
         justify-center
-        mr-6
         rounded-md
+        col-span-1
       "
     >
       <font-awesome-icon
@@ -31,7 +33,7 @@
     </div>
     <!-- /icon -->
 
-    <div>
+    <div class="col-span-2">
       <!-- title -->
       <div class="tracking-wider mb-2">
         {{ title }} -

@@ -9,7 +9,8 @@
 
 <p>Welcome to my profile! I'm <b>Front-end</b> developer from 🇮🇷 <b>Iran</b>.</p>
 
-<h3>Things I code with</h3>
+<h3>Things I code with:</h3>
+
 <p>
   <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
   <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
@@ -24,3 +25,8 @@
   <img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white" />
   <img alt="Prettier" src="https://img.shields.io/badge/-Eslint-4A32C3?style=flat-square&logo=eslint&logoColor=white" />
 </p>
+
+<br/>
+
+[![Github Stats](https://github-readme-stats.vercel.app/api?username=mortezasabihi&hide_border=true&show_icons=true&line_height=40&include_all_commits=true&count_private=true&&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&icon_color=fff)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mortezasabihi&hide_border=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&icon_color=fff)](https://github.com/anuraghazra/github-readme-stats)

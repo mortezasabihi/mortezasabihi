@@ -11,7 +11,7 @@
     <a
       v-if="$route.path === '/resume'"
       download
-      href="~/statics/resume.pdf"
+      href="/resume.pdf"
       target="_blank"
       class="
         text-white
@@ -46,7 +46,7 @@
 
     <a
       download
-      href="~/statics/resume.pdf"
+      href="/resume.pdf"
       target="_blank"
       class="
         text-white

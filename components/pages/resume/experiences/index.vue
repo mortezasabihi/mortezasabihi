@@ -60,6 +60,12 @@ export default {
       items, filling inputs and selecting color theme. It was so amazing to me.
           `,
         },
+        {
+          company: 'Sabacell',
+          date: 'JULY 2021 - PRESENT',
+          type: 'Full Time',
+          description: `Front-end Developer at Sabacell`,
+        },
       ],
     }
   },

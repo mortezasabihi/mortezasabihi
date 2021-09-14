@@ -19,7 +19,9 @@
   <img alt="Webpack" src="https://img.shields.io/badge/-Webpack-8DD6F9?style=flat-square&logo=webpack&logoColor=white" /> 
   <img alt="VueJS" src="https://img.shields.io/badge/-VueJS-3FB883?style=flat-square&logo=vue.js&logoColor=white" /> 
   <img alt="NuxtJS" src="https://img.shields.io/badge/-NuxtJS-00c58e?style=flat-square&logo=nuxt.js&logoColor=white" /> 
+  <img alt="ReactJS" src="https://img.shields.io/badge/-ReactJS-5ED3F3?style=flat-square&logo=react&logoColor=white" />
   <img alt="Javascript" src="https://img.shields.io/badge/-Javascript-EFD81D?style=flat-square&logo=javascript&logoColor=white" /> 
+  <img alt="Typescript" src="https://img.shields.io/badge/-Typescript-2F74C0?style=flat-square&logo=typescript&logoColor=white" />
   <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
   <img alt="Sass" src="https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white" />
   <img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white" />

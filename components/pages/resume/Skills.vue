@@ -5,7 +5,7 @@
     <!-- /title -->
 
     <!-- skills -->
-    <div class="grid grid-cols-6 gap-4">
+    <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-4">
       <PageResumeSkillItem label="React" color="#00d8ff">
         <!-- react -->
         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

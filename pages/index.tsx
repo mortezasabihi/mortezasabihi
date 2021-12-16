@@ -1,16 +1,15 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import { TheHeader } from "components";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="container mx-auto px-8 lg:max-w-screen-md md:max-w-screen-sm">
       <Head>
-        <title>Morteza Sabihi</title>
-        <meta name="description" content="Morteza Sabihi's personal website" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Morteza Sabihi - Frontend Developer</title>
       </Head>
 
-      <h1 className="text-4xl">Hello</h1>
+      <TheHeader />
     </div>
   );
 };

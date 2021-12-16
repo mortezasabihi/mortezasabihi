@@ -1,6 +1,6 @@
 import type { NextPage, GetStaticProps } from "next";
 import Head from "next/head";
-import { TheHeader, Hero } from "components";
+import { TheHeader, Hero, SocialMedia } from "components";
 import { Github } from "types";
 
 type Props = {
@@ -17,7 +17,13 @@ const Home: NextPage<Props> = ({ github }) => {
       <div className="container mx-auto px-8 lg:max-w-screen-md md:max-w-screen-sm">
         <TheHeader title={github.name} />
 
-        <Hero avatar_url={github.avatar_url} bio={github.bio} />
+        <main>
+          <Hero avatar_url={github.avatar_url} bio={github.bio} />
+        </main>
+
+        <footer>
+          <SocialMedia />
+        </footer>
       </div>
     </>
   );

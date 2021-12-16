@@ -12,7 +12,7 @@ export default function Document() {
           rel="stylesheet"
         />
       </Head>
-      <body className="font-body overflow-x-hidden bg-gradient-to-b md:bg-gradient-to-r from-indigo-600 to-pink-800 ">
+      <body className="font-body overflow-x-hidden bg-gradient-to-b md:bg-gradient-to-r from-indigo-600 to-pink-800 min-h-screen">
         <Main />
         <NextScript />
       </body>

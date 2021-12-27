@@ -90,7 +90,7 @@ const Skills = () => {
 
   return (
     <div className="mb-8">
-      <h3 className="section-heading">Skills</h3>
+      <h2 className="section-heading">Skills</h2>
 
       <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-4">
         {skills.map((skill, index) => (

@@ -47,7 +47,7 @@ const Experiences = () => {
 
   return (
     <div className="mb-8">
-      <h3 className="section-heading">Experiences</h3>
+      <h2 className="section-heading">Experiences</h2>
 
       {experiences.reverse().map((experience, index) => (
         <Item

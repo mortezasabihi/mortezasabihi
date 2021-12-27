@@ -17,7 +17,7 @@ const Educations = () => {
 
   return (
     <div className="mb-8">
-      <h3 className="section-heading">Education</h3>
+      <h2 className="section-heading">Education</h2>
 
       {educations.reverse().map((education, index) => (
         <Item

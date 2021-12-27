@@ -16,7 +16,7 @@ const AboutMe = ({ bio, name, location }: Props) => {
 
   return (
     <div className="mb-8">
-      <h3 className="section-heading">About Me</h3>
+      <h2 className="section-heading">About Me</h2>
 
       <p className="font-light tracking-wider mb-8">{bio}</p>
 

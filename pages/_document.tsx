@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="en">
       <Head>
         <meta name="description" content="Morteza Sabihi's personal website" />
         <link rel="icon" href="/favicon.ico" />

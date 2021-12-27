@@ -12,7 +12,7 @@ const Layout = ({ children, github }: Props) => {
     <div className="container mx-auto px-8 lg:max-w-screen-md md:max-w-screen-sm">
       <TheHeader title={github.name} />
 
-      <main>{children}</main>
+      <main className="animate__animated animate__fadeIn">{children}</main>
 
       <footer>
         <SocialMedia />

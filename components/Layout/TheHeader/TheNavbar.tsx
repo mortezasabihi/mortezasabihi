@@ -31,7 +31,7 @@ const TheNavbar: NextPage = () => {
             text-center
             leading-loose
             md:leading-normal
-            animate__animated animate__fadeInRight
+            
           "
       >
         {links.map(({ title, url }, index) => (

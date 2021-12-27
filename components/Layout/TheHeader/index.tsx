@@ -16,7 +16,7 @@ const TheHeader: NextPage<Props> = ({ title }) => {
         text-6xl text-white
         tracking-wide
         uppercase
-        animate__animated animate__fadeInDown
+        
       "
           >
             {title}

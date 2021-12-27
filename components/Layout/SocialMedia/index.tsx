@@ -8,7 +8,7 @@ import Telegram from "assets/icons/telegram.svg";
 
 const SocialMedia: NextPage = () => {
   return (
-    <div className="mb-20 mx-auto lg:max-w-sm animate__animated animate__fadeInUp">
+    <div className="mb-20 mx-auto lg:max-w-sm">
       <div className="text-center tracking-widest font-bold mb-6">
         Find me on:
       </div>

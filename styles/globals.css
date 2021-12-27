@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .section-heading {
+    @apply text-2xl font-bold border-b-2 border-black pb-2 mb-4;
+  }
+}

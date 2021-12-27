@@ -1,12 +1,9 @@
-import type { NextPage } from "next";
 import Image from "next/image";
+import { Github } from "types";
 
-type Props = {
-  avatar_url: string;
-  bio: string;
-};
+type Props = Pick<Github, "avatar_url" | "bio">;
 
-const Hero: NextPage<Props> = ({ avatar_url, bio }) => {
+const Hero = ({ avatar_url, bio }: Props) => {
   return (
     <section className="p-12 bg-white rounded-lg shadow-2xl mb-12">
       <div className="flex flex-wrap items-center">

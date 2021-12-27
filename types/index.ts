@@ -32,3 +32,28 @@ export interface Github {
   created_at: string;
   updated_at: string;
 }
+
+export interface Skill {
+  name: string;
+  color: string;
+}
+
+export interface Experience {
+  company: string;
+  date: string;
+  type: "Part Time" | "Full Time";
+  description: string;
+}
+
+export interface Education {
+  title: string;
+  date: string;
+  degree: string;
+}
+
+export interface Project {
+  title: string;
+  date: string;
+  description: string;
+  url: string;
+}

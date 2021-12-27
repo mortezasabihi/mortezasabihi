@@ -13,7 +13,7 @@ const links: { title: string; url: string }[] = [
   },
   {
     title: "Contact Me",
-    url: "/contact",
+    url: "mailto:mortezasabihi87@gmail.com",
   },
 ];
 

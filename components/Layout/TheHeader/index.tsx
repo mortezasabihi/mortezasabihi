@@ -9,17 +9,19 @@ type Props = {
 const TheHeader: NextPage<Props> = ({ title }) => {
   return (
     <header className="text-center  my-16">
-      <Link href="/">
-        <h1
-          className="
+      <Link href="/" passHref>
+        <a>
+          <h1
+            className="
         text-6xl text-white
         tracking-wide
         uppercase
         animate__animated animate__fadeInDown
       "
-        >
-          {title}
-        </h1>
+          >
+            {title}
+          </h1>
+        </a>
       </Link>
 
       <TheNavbar />

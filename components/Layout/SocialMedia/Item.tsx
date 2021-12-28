@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import type { NextPage } from "next";
+import { motion } from "framer-motion";
 
 type Props = {
   href: string;
@@ -8,7 +9,7 @@ type Props = {
 
 const Item: NextPage<Props> = ({ href, children }) => {
   return (
-    <a
+    <motion.a
       href={href}
       target="_blank"
       rel="noreferrer"
@@ -19,19 +20,15 @@ const Item: NextPage<Props> = ({ href, children }) => {
               items-center
               justify-center
               rounded-full
-              hover:bg-white
-              focus:bg-white
               text-lg
               transform
-              hover:scale-150
-              focus:scale-150
-              transition
-              ease-in-out
-              duration-150
             "
+      whileHover={{ scale: 1.5, backgroundColor: "white" }}
+      whileFocus={{ scale: 1.5, backgroundColor: "white" }}
+      transition={{ type: "spring", stiffness: 500 }}
     >
       {children}
-    </a>
+    </motion.a>
   );
 };
 

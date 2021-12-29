@@ -6,6 +6,21 @@ export default function Document() {
       <Head>
         <meta name="description" content="Morteza Sabihi's personal website" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="author" content="Morteza Sabihi" />
+        <meta name="keywords" content="Morteza Sabihi, مرتضی صبیحی" />
+        <meta name="theme-color" content="#4f46e5" />
+        <meta property="twitter:card" name="twitter:card" content="summary" />
+        <meta
+          property="twitter:site"
+          name="twitter:site"
+          content="@mortezasabihi"
+        />
+        <meta property="og:type" name="og:type" content="website" key="type" />
+        <meta
+          property="og:image:type"
+          name="og:image:type"
+          content="image/png"
+        />
 
         <link
           href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap"

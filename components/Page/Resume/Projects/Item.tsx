@@ -1,10 +1,16 @@
+import { motion } from "framer-motion";
+
 import { Project } from "types";
 
 type Props = Project;
 
 const Project = ({ title, date, description, url }: Props) => {
   return (
-    <div className="mb-5 last-of-type:mb-0 transform hover:scale-105 transition duration-300">
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      transition={{ type: "spring", stiffness: 300 }}
+      className="mb-5 last-of-type:mb-0"
+    >
       <div>
         <strong>{title}</strong>
       </div>
@@ -24,7 +30,7 @@ const Project = ({ title, date, description, url }: Props) => {
           See Project
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

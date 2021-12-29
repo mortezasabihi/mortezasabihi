@@ -33,6 +33,12 @@ const AboutMe = ({ bio, name, location }: Props) => {
           <strong className="w-32 uppercase">Location:</strong>
           <span className="tracking-wide">{location}</span>
         </li>
+        <li className="flex items-center">
+          <strong className="w-32 uppercase">Email:</strong>
+          <a href="mailto:mortezasabihi87@gmail.com" className="tracking-wide">
+            mortezasabihi87@gmail.com
+          </a>
+        </li>
       </ul>
     </div>
   );

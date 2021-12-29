@@ -25,7 +25,7 @@ const Item: NextPage<Props> = ({ href, children }) => {
             "
       whileHover={{ scale: 1.5, backgroundColor: "white" }}
       whileFocus={{ scale: 1.5, backgroundColor: "white" }}
-      transition={{ type: "spring", stiffness: 500 }}
+      transition={{ type: "spring", stiffness: 400 }}
     >
       {children}
     </motion.a>

@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { motion } from "framer-motion";
 
 type Props = {
   label: string;
@@ -8,8 +9,10 @@ type Props = {
 
 const Item = ({ label, color, children }: Props) => {
   return (
-    <div
-      className={`w-20 h-20 flex flex-col items-center justify-center transform hover:scale-125 transition mx-auto ${
+    <motion.div
+      whileHover={{ scale: 1.3 }}
+      transition={{ type: "spring", stiffness: 300 }}
+      className={`w-20 h-20 flex flex-col items-center justify-center mx-auto ${
         color === "#000000" && "text-white"
       }`}
       style={{ backgroundColor: color }}
@@ -17,7 +20,7 @@ const Item = ({ label, color, children }: Props) => {
       <div className="w-8 h-8">{children}</div>
 
       <div className="font-bold text-sm capitalize">{label}</div>
-    </div>
+    </motion.div>
   );
 };
 

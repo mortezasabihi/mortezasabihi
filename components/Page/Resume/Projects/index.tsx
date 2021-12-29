@@ -23,7 +23,7 @@ const Projects = () => {
     <div className="mb-8">
       <h2 className="section-heading">Projects</h2>
 
-      {projects.map((project, index) => (
+      {projects.reverse().map((project, index) => (
         <Item
           key={index}
           title={project.title}

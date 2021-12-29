@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
 import { Experience } from "types";
 
 type Props = Experience;
@@ -7,8 +8,10 @@ const Item = ({ company, date, type, description }: Props) => {
   const [hovered, setHovered] = useState<boolean>(false);
 
   return (
-    <div
-      className="flex items-center mb-4 transform hover:scale-105 transition duration-300 ease-in-out"
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      transition={{ type: "spring", stiffness: 300 }}
+      className="flex items-center mb-4"
       onMouseOver={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
@@ -37,7 +40,7 @@ const Item = ({ company, date, type, description }: Props) => {
           {date}
         </span>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

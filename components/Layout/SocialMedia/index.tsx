@@ -6,6 +6,7 @@ import Linkedin from "assets/icons/linkedin.svg";
 import Twitter from "assets/icons/twitter.svg";
 import Instagram from "assets/icons/instagram.svg";
 import Telegram from "assets/icons/telegram.svg";
+import Mail from "assets/icons/mail.svg";
 
 const SocialMedia: NextPage = () => {
   const items: { url: string; name: string; icon: any }[] = [
@@ -33,6 +34,11 @@ const SocialMedia: NextPage = () => {
       url: "https://t.me/mortezasabihi",
       name: "telegram",
       icon: <Telegram />,
+    },
+    {
+      url: "mailto:mortezasabihi87@gmail.com",
+      name: "email",
+      icon: <Mail />,
     },
   ];
 

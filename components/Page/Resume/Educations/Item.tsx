@@ -1,9 +1,14 @@
 import { Education } from "types";
+import { motion } from "framer-motion";
 import University from "assets/icons/university.svg";
 
 const Education = ({ date, degree, title }: Education) => {
   return (
-    <div className="mb-4 transform hover:scale-105 transition duration-300 ease-in-out grid grid-cols-3 gap-4 md:flex">
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      transition={{ type: "spring", stiffness: 300 }}
+      className="mb-4 grid grid-cols-3 gap-4 md:flex"
+    >
       <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gray-300 flex items-center justify-center rounded-md col-span-1">
         <University />
       </div>
@@ -15,7 +20,7 @@ const Education = ({ date, degree, title }: Education) => {
 
         <div className="font-light tracking-wider text-sm">{degree}</div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

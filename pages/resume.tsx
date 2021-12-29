@@ -1,5 +1,6 @@
 import type { NextPage, GetStaticProps } from "next";
 import Head from "next/head";
+import { useRouter } from "next/router";
 import { Github } from "types";
 import { getGithub } from "services";
 import { AboutMe, Skills, Experiences, Educations, Projects } from "components";
@@ -9,6 +10,8 @@ type Props = {
 };
 
 const Resume: NextPage<Props> = ({ github }) => {
+  const router = useRouter();
+
   return (
     <>
       <Head>
@@ -63,6 +66,33 @@ const Resume: NextPage<Props> = ({ github }) => {
         />
         <link rel="canonical" href="https://mortezasabihi.com/resume" />
       </Head>
+
+      {router.pathname === "/resume" && (
+        <a
+          download
+          href="/Resume.pdf"
+          target="_blank"
+          className="
+          text-white
+          mb-10
+          px-5
+          py-2
+          text-lg
+          tracking-wider
+          border-2 border-white
+          rounded-full
+          hover:bg-white hover:text-indigo-600
+          transition
+          transform
+          hover:scale-110
+          block
+          md:hidden
+          text-center
+        "
+        >
+          Get My Resume
+        </a>
+      )}
 
       <section className="bg-white p-12 rounded-lg mb-12">
         <AboutMe

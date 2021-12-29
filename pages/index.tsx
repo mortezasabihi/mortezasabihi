@@ -1,6 +1,6 @@
 import type { NextPage, GetStaticProps } from "next";
 import Head from "next/head";
-import { Layout, Hero } from "components";
+import { Hero } from "components";
 import { Github } from "types";
 import { getGithub } from "services";
 
@@ -15,9 +15,7 @@ const Home: NextPage<Props> = ({ github }) => {
         <title>{github.name} - Frontend Developer</title>
       </Head>
 
-      <Layout github={github}>
-        <Hero avatar_url={github.avatar_url} bio={github.bio} />
-      </Layout>
+      <Hero avatar_url={github.avatar_url} bio={github.bio} />
     </>
   );
 };

@@ -1,17 +1,15 @@
 import { ReactNode } from "react";
 import { motion } from "framer-motion";
 import { TheHeader, SocialMedia } from "components";
-import { Github } from "types";
 
 type Props = {
   children: ReactNode;
-  github: Github;
 };
 
-const Layout = ({ children, github }: Props) => {
+const Layout = ({ children }: Props) => {
   return (
     <div className="container mx-auto px-8 lg:max-w-screen-md md:max-w-screen-sm">
-      <TheHeader title={github.name} />
+      <TheHeader title="Morteza Sabihi" />
 
       <motion.main
         initial={{ y: 30, opacity: 0 }}

@@ -13,6 +13,55 @@ const Resume: NextPage<Props> = ({ github }) => {
     <>
       <Head>
         <title>{github.name} - Resume</title>
+        <meta name="author" content="Morteza Sabihi" />
+        <meta name="keywords" content="Morteza Sabihi, مرتضی صبیحی" />
+        <meta name="theme-color" content="#4f46e5" />
+        <meta property="og:title" name="og:title" content={github.name} />
+        <meta
+          property="og:url"
+          name="og:url"
+          content="https://mortezasabihi.com/resume"
+        />
+        <meta property="og:type" name="og:type" content="website" key="type" />
+        <meta property="og:image" name="og:image" content={github.avatar_url} />
+        <meta
+          property="og:image:type"
+          name="og:image:type"
+          content="image/png"
+        />
+        <meta
+          property="og:description"
+          name="og:description"
+          content="Morteza Sabihi's personal resume"
+          key="description"
+        />
+        <meta
+          property="twitter:title"
+          name="twitter:title"
+          content={github.name}
+        />
+        <meta
+          property="twitter:image"
+          name="twitter:image"
+          content={github.avatar_url}
+        />
+        <meta
+          property="twitter:description"
+          name="twitter:description"
+          content="Morteza Sabihi's personal resume"
+        />
+        <meta property="twitter:card" name="twitter:card" content="summary" />
+        <meta
+          property="twitter:site"
+          name="twitter:site"
+          content="@mortezasabihi"
+        />
+        <meta itemProp="name" content={github.name} />
+        <meta
+          itemProp="description"
+          content="Morteza Sabihi's personal resume"
+        />
+        <link rel="canonical" href="https://mortezasabihi.com/resume" />
       </Head>
 
       <section className="bg-white p-12 rounded-lg mb-12">

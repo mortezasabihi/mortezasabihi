@@ -1,0 +1,9 @@
+export { default as TheHeader } from "./Layout/TheHeader";
+export { default as SocialMedia } from "./Layout/SocialMedia";
+export { default as Layout } from "./Layout/Index";
+export { default as Hero } from "./Page/Home/Hero";
+export { default as AboutMe } from "./Page/Resume/AboutMe";
+export { default as Skills } from "./Page/Resume/Skills";
+export { default as Experiences } from "./Page/Resume/Experiences";
+export { default as Educations } from "./Page/Resume/Educations";
+export { default as Projects } from "./Page/Resume/Projects";

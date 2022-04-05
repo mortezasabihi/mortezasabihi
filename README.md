@@ -7,7 +7,7 @@
 [![Telegram Badge](https://img.shields.io/badge/-mortezasabihi-0088cc?style=flat&logo=Telegram&logoColor=white&link=https://t.me/mortezasabihi)](https://t.me/mortezasabihi)
 [![Gmail Badge](https://img.shields.io/badge/-mortezasabihi87-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:mortezasabihi87@gmail.com)](mailto:mortezasabihi87@gmail.com)
 
-<p>Welcome to my profile! I'm <b>Front-end</b> developer from 🇮🇷 <b>Iran</b>.</p>
+<p>Welcome to my profile! I'm a <b>Front-end</b> developer 👨🏻‍💻</p>
 
 <h3>Things I code with:</h3>
 

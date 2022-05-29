@@ -36,7 +36,7 @@ const AboutMe = ({ bio, name, location }: Props) => {
         </li>
         <li className="flex items-center">
           <strong className="w-32 uppercase">Email:</strong>
-          <a href="mailto:mortezasabihi87@gmail.com" className="tracking-wide">
+          <a href="mailto:morteza.sabihi@gmail.com" className="tracking-wide">
             morteza.sabihi@gmail.com
           </a>
         </li>

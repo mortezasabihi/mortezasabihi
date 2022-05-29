@@ -16,7 +16,7 @@ const Item = ({ company, date, type, description }: Props) => {
       onMouseLeave={() => setHovered(false)}
     >
       <div
-        className={`w-24 h-24 rounded-full items-center justify-center text-white from-green-400 to-green-500 mr-6 hidden sm:flex md:flex lg:flex xl:flex flex-col ${
+        className={`w-24 h-24 rounded-full items-center justify-center text-white from-green-400 to-green-500 mr-8 hidden sm:flex md:flex lg:flex xl:flex flex-col ${
           hovered ? "bg-gradient-to-r" : "bg-gradient-to-l"
         }`}
       >
@@ -33,7 +33,13 @@ const Item = ({ company, date, type, description }: Props) => {
         </div>
 
         <div>
-          <p className="font-light tracking-wider text-sm">{description}</p>
+          <ul className="list-disc">
+            {description.map((item, index) => (
+              <li key={index}>
+                <p className="font-light tracking-wider text-sm">{item}</p>
+              </li>
+            ))}
+          </ul>
         </div>
 
         <span className="bg-green-400 inline-block sm:hidden md:hidden lg:hidden xl:hidden py-1 px-2 text-xs rounded-lg mt-2">

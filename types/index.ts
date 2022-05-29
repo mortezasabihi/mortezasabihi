@@ -42,7 +42,7 @@ export interface Experience {
   company: string;
   date: string;
   type: "Part Time" | "Full Time";
-  description: string;
+  description: string[];
 }
 
 export interface Education {

@@ -7,41 +7,41 @@ const Experiences = () => {
       company: "kamelbarchasb",
       date: "JUN 2019 - NOV 2019",
       type: "Full Time",
-      description: `
-            Actually kamel barchasb is a factory in the printing labels industry. I
-        joined the IT team for developing an ERP dashboard. It was my first job as
-        a front-end developer with Vue js framework with zero experience in real
-        work. I became familiar with teamwork. That was a good experience for me.
-            `,
+      description: [
+        "Developed the company’s personalized ERP system in the printing labels industry called PERP using VueJS framework.",
+        "Got familiar with teamwork and Collaborated with 4 teammates and grew with them.",
+        "Revamped UI interface to increase user experience.",
+        "Worked closely with programmers and clients to meet project requirements, goals, and desired functionality.",
+      ],
     },
     {
       company: "Apochi.com - Your Travel Gateway To Iran",
       date: "DEC 2019 - JUL 2020",
       type: "Part Time",
-      description: `
-        Apochi is a travel company for foreign travelers who travel to iran. I
-        joined the IT team as a front-end developer. I developed apochi.com from
-        scratch with Nuxt js framework. I converted XD designs to Vue js
-        components for desktop & mobile platforms.
-            `,
+      description: [
+        "Manage website development project from initial design through completion using VueJS and NuxtJS frameworks, optimizing all cross-browser and multi-platform compatibility, and leading the project alone in the first 6 months.",
+        "Designed and prepared end-to-end product features in collaboration with UI/UX designers and stakeholders that enhanced performance by up to 80%.",
+        "Made website pages SEO Friendly by developing in SSR mode, adding required meta tags, applying JSON-LD, reducing image size, and lazy-loading.",
+      ],
     },
     {
       company: "7even Tech Team",
       date: "DEC 2019 - MAY 2020",
       type: "Full Time",
-      description: `
-          I joined the 7even tech team as a front-end developer. We developed the
-        project with nuxt js. The project was so complex in some pages. For
-        example in one page we developed some components & logics that users can
-        build customized Landing pages with no coding, just with drag & drop
-        items, filling inputs and selecting color theme. It was so amazing to me.
-            `,
+      description: [
+        "Worked closely with international programmers, UI/UX designers, and clients to meet requirements, goals, and desired functionality on a challenging and complex Startup project.",
+        "Developed the web application from initial UI design using VueJS and NuxtJS frameworks with members of a team of 4 people.",
+        "Took charge of developing MVP as a team member and working overtime to ensure that it got completed by the deadline.",
+      ],
     },
     {
       company: "Freelance",
       date: "JULY 2021 - PRESENT",
       type: "Full Time",
-      description: `Front-end Developer as a freelancer.`,
+      description: [
+        "Worked closely with clients to meet requirements, goals, and desired functionality.",
+        "Contributed as an Open-Source developer on github.",
+      ],
     },
   ];
 

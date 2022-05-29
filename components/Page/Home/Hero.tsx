@@ -2,9 +2,9 @@ import Image from "next/image";
 import { Github } from "types";
 import AboutText from "components/Shared/AboutText";
 
-type Props = Pick<Github, "avatar_url" | "bio">;
+type Props = Pick<Github, "avatar_url" | "hireable">;
 
-const Hero = ({ avatar_url, bio }: Props) => {
+const Hero = ({ avatar_url, hireable }: Props) => {
   return (
     <section className="p-12 bg-white rounded-lg shadow-2xl mb-12">
       <div className="flex flex-wrap items-center">
@@ -38,6 +38,12 @@ const Hero = ({ avatar_url, bio }: Props) => {
           </h2>
 
           <AboutText />
+
+          {hireable && (
+            <span className="bg-green-500 rounded text-white px-3 py-1">
+              Open To Work
+            </span>
+          )}
         </div>
       </div>
     </section>

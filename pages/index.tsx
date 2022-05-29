@@ -49,7 +49,7 @@ const Home: NextPage<Props> = ({ github }) => {
         <link rel="canonical" href="https://mortezasabihi.com" />
       </Head>
 
-      <Hero avatar_url={github.avatar_url} bio={github.bio} />
+      <Hero avatar_url={github.avatar_url} hireable={github.hireable} />
     </>
   );
 };

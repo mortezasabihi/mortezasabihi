@@ -36,7 +36,7 @@ const SocialMedia: NextPage = () => {
       icon: <Telegram />,
     },
     {
-      url: "mailto:mortezasabihi87@gmail.com",
+      url: "mailto:morteza.sabihi@gmail.com",
       name: "email",
       icon: <Mail />,
     },

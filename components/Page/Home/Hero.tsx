@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Github } from "types";
+import AboutText from "components/Shared/AboutText";
 
 type Props = Pick<Github, "avatar_url" | "bio">;
 
@@ -36,9 +37,7 @@ const Hero = ({ avatar_url, bio }: Props) => {
             I&apos;m Front-end developer.
           </h2>
 
-          <p className="leading-relaxed text-gray-900 tracking-wider font-light">
-            {bio}
-          </p>
+          <AboutText />
         </div>
       </div>
     </section>

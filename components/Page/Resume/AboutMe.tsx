@@ -1,4 +1,5 @@
 import { Github } from "types";
+import AboutText from "components/Shared/AboutText";
 
 type Props = Pick<Github, "bio" | "name" | "location">;
 
@@ -18,7 +19,7 @@ const AboutMe = ({ bio, name, location }: Props) => {
     <div className="mb-8">
       <h2 className="section-heading">About Me</h2>
 
-      <p className="font-light tracking-wider mb-8">{bio}</p>
+      <AboutText />
 
       <ul>
         <li className="flex items-center">

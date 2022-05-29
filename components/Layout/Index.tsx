@@ -31,8 +31,7 @@ const Layout = ({ children }: Props) => {
         className="fixed bottom-0 right-0 mr-14 mb-14"
       >
         <motion.a
-          download
-          href="/Resume.pdf"
+          href="https://drive.google.com/file/d/16TNPT6-xFXFM0aCDGsjNaLH4XfAv_x7Q/view?usp=sharing"
           target="_blank"
           className="
         text-white px-5 py-2 text-lg tracking-wider border-2 border-white rounded-full hidden md:block

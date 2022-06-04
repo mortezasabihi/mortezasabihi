@@ -5,7 +5,7 @@
 [![Twitter Badge](https://img.shields.io/badge/-@mortezasabihi-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/mortezasabihi)](https://twitter.com/mortezasabihi)
 [![Instagram Badge](https://img.shields.io/badge/-@morteza.sabihi-purple?style=flat&logo=instagram&logoColor=white&link=https://instagram.com/morteza.sabihi)](https://instagram.com/morteza.sabihi)
 [![Telegram Badge](https://img.shields.io/badge/-mortezasabihi-0088cc?style=flat&logo=Telegram&logoColor=white&link=https://t.me/mortezasabihi)](https://t.me/mortezasabihi)
-[![Gmail Badge](https://img.shields.io/badge/-mortezasabihi87-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:mortezasabihi87@gmail.com)](mailto:mortezasabihi87@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-morteza.sabihi-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:morteza.sabihi@gmail.com)](mailto:morteza.sabihi@gmail.com)
 
 <p>Welcome to my profile! I'm a <b>Front-end</b> developer 👨🏻‍💻</p>
 

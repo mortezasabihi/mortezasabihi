@@ -17,6 +17,13 @@ const Projects = () => {
         "I developed wallet.ir frontend side from scratch with Vue 3 framework.",
       url: "https://wallet.ir/",
     },
+    {
+      title: "Trovio.io",
+      date: "July 2022 - August 2022",
+      description:
+        "I developed trovio.io frontend side from scratch with Next.JS framework with Tailwindcss.",
+      url: "https://www.trovio.io/",
+    },
   ];
 
   return (

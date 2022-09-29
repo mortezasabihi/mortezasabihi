@@ -36,11 +36,22 @@ const Experiences = () => {
     },
     {
       company: "Freelance",
-      date: "JULY 2021 - PRESENT",
+      date: "JULY 2021 - MAY 2022",
       type: "Full Time",
       description: [
         "Worked closely with clients to meet requirements, goals, and desired functionality.",
         "Contributed as an Open-Source developer on github.",
+      ],
+    },
+    {
+      company: "Shakewell Agency",
+      date: "JUN 2022 - PRESENT",
+      type: "Full Time",
+      description: [
+        "Worked closely to ui/ux designers and ask them to design every page with different statuses and a complete design system. Coded the complete design system and pages with tailwindcss, nextjs and typescript.",
+        "Communicated with the team to meet clients requirements, goals, and desired functionality. Had meeting with the Manager to solve the project issues.",
+        "Had a change to manage a project and creating tickets for the project.",
+        "Coded Nextjs, typescript web application with clean structure. Creating a Nextjs boilerplate for the company.",
       ],
     },
   ];

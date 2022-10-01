@@ -20,21 +20,21 @@ const SocialMedia: NextPage = () => {
       name: "linkedin",
       icon: <Linkedin />,
     },
-    {
-      url: "https://twitter.com/mortezasabihi",
-      name: "twitter",
-      icon: <Twitter />,
-    },
-    {
-      url: "https://www.instagram.com/mortezasabihi",
-      name: "instagram",
-      icon: <Instagram />,
-    },
-    {
-      url: "https://t.me/mortezasabihi",
-      name: "telegram",
-      icon: <Telegram />,
-    },
+    // {
+    //   url: "https://twitter.com/mortezasabihi",
+    //   name: "twitter",
+    //   icon: <Twitter />,
+    // },
+    // {
+    //   url: "https://www.instagram.com/mortezasabihi",
+    //   name: "instagram",
+    //   icon: <Instagram />,
+    // },
+    // {
+    //   url: "https://t.me/mortezasabihi",
+    //   name: "telegram",
+    //   icon: <Telegram />,
+    // },
     {
       url: "mailto:morteza.sabihi@gmail.com",
       name: "email",
@@ -47,13 +47,13 @@ const SocialMedia: NextPage = () => {
       initial={{ y: -30, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ delay: 1.5, duration: 0.4 }}
-      className="mb-20 mx-auto lg:max-w-sm"
+      className="mb-20 mx-auto"
     >
       <div className="text-center tracking-widest font-bold mb-6">
         Find me on:
       </div>
 
-      <div className="flex items-center justify-between">
+      <div className="flex items-center gap-x-6 justify-center">
         {items.map((item, index) => (
           <Item key={index} href={item.url}>
             {item.icon}

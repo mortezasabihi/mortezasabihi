@@ -2,10 +2,9 @@
 
 [![Linkedin Badge](https://img.shields.io/badge/-mortezasabihi-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mortezasabihi/)](https://www.linkedin.com/in/mortezasabihi/)
 [![Website Badge](https://img.shields.io/badge/-mortezasabihi.com-4c51bf?style=flat&logo=Google-Chrome&logoColor=white&link=https://mortezasabihi.com)](https://mortezasabihi.com)
-[![Twitter Badge](https://img.shields.io/badge/-@mortezasabihi-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/mortezasabihi)](https://twitter.com/mortezasabihi)
-[![Instagram Badge](https://img.shields.io/badge/-@morteza.sabihi-purple?style=flat&logo=instagram&logoColor=white&link=https://instagram.com/morteza.sabihi)](https://instagram.com/morteza.sabihi)
-[![Telegram Badge](https://img.shields.io/badge/-mortezasabihi-0088cc?style=flat&logo=Telegram&logoColor=white&link=https://t.me/mortezasabihi)](https://t.me/mortezasabihi)
 [![Gmail Badge](https://img.shields.io/badge/-morteza.sabihi-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:morteza.sabihi@gmail.com)](mailto:morteza.sabihi@gmail.com)
+
+<h2>I'm <a href="https://www.linkedin.com/in/mortezasabihi/"><b>#OPENTOWORK</b></a></h2>
 
 <p>Welcome to my profile! I'm a <b>Front-end</b> developer 👨🏻‍💻</p>
 

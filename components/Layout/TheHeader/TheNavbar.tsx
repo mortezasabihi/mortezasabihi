@@ -17,7 +17,7 @@ const TheNavbar: NextPage = () => {
     },
     {
       title: "Contact Me",
-      url: "mailto:mortezasabihi87@gmail.com",
+      url: "mailto:morteza.sabihi@gmail.com",
     },
   ];
 

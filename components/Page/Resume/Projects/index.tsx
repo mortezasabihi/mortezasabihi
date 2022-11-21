@@ -18,6 +18,13 @@ const Projects = () => {
       url: "https://wallet.ir/",
     },
     {
+      title: "Riptidemag",
+      date: "July 2022 - August 2022",
+      description:
+        "I developed riptidemag.com.au frontend side from scratch with Next.JS framework with ChakraUI.",
+      url: "https://www.riptidemag.com.au/",
+    },
+    {
       title: "Trovio.io",
       date: "July 2022 - August 2022",
       description:

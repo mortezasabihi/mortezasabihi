@@ -8,11 +8,6 @@ const Educations = () => {
       date: "2017 - 2019",
       degree: "High School Diploma, Computer Science",
     },
-    {
-      title: "Islamic Azad University, Parand Branch",
-      date: "2020",
-      degree: "Bachelor's degree, Computer Engineering",
-    },
   ];
 
   return (

@@ -77,11 +77,7 @@ const Resume: NextPage<Props> = ({ github }) => {
       )}
 
       <section className="bg-white p-12 rounded-lg mb-12">
-        <AboutMe
-          bio={github.bio}
-          name={github.name}
-          location={github.location}
-        />
+        <AboutMe name={github.name} />
 
         <Skills />
 

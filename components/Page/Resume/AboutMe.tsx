@@ -1,9 +1,9 @@
 import { Github } from "types";
 import AboutText from "components/Shared/AboutText";
 
-type Props = Pick<Github, "bio" | "name" | "location">;
+type Props = Pick<Github, "name">;
 
-const AboutMe = ({ bio, name, location }: Props) => {
+const AboutMe = ({ name }: Props) => {
   const calculateAge = () => {
     const today = new Date();
     const birthDate = new Date("2001-03-27");
@@ -29,10 +29,6 @@ const AboutMe = ({ bio, name, location }: Props) => {
         <li className="flex items-center">
           <strong className="w-32 uppercase">Age:</strong>
           <span className="tracking-wide">{calculateAge()}</span>
-        </li>
-        <li className="flex items-center">
-          <strong className="w-32 uppercase">Location:</strong>
-          <span className="tracking-wide">{location}</span>
         </li>
         <li className="flex items-center">
           <strong className="w-32 uppercase">Email:</strong>

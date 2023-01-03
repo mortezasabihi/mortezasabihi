@@ -5,37 +5,24 @@ const Experiences = () => {
   const experiences: Experience[] = [
     {
       company: "kamelbarchasb",
-      date: "JUN 2019 - NOV 2019",
+      date: "JUN 2019 - DEC 2020",
       type: "Full Time",
       description: [
-        "Developed the company’s personalized ERP system in the printing labels industry called PERP using VueJS framework.",
-        "Got familiar with teamwork and Collaborated with 4 teammates and grew with them.",
-        "Revamped UI interface to increase user experience.",
-        "Worked closely with programmers and clients to meet project requirements, goals, and desired functionality.",
+        "Mentored by senior developers and the team lead.",
+        "Got familiar with the team working and started coding as my first job with teammates and growing up.",
+        "Built the company’s personalized ERP system in the printing labels industry called PERP.",
+        "Created a custom client dashboard that reduced support tickets by 50%.",
       ],
     },
     {
       company: "Apochi.com - Your Travel Gateway To Iran",
-      date: "DEC 2019 - JUL 2020",
+      date: "JAN 2021 - MAY 2022",
       type: "Part Time",
       description: [
-        "Managed website development project from initial design through completion using Vue.js and Nuxt.js frameworks, optimizing all cross-browser and multi-platform compatibility, and leading tasks alone in the first 6 months",
-        "Designed and prepared end-to-end product features in collaboration with UI/UX designers and stakeholders that enhanced performance by up to 80%.",
-        "Made website pages SEO Friendly by developing in SSR mode, adding required meta tags, applying JSON-LD, reducing image size, and lazy-loading.",
-        "Used SCSS pre-processor for styling the project with BEM naming methodology and structuring files with 7-1 pattern.",
-        "Added multi-language support with i18n library."
-      ],
-    },
-    {
-      company: "7even Tech",
-      date: "SEP 2020 - MAY 2022",
-      type: "Full Time",
-      description: [
-        "Collaborated closely with international programmers teams, UI/UX designers, and clients to meet requirements, goals, and suitable functionality on a challenging and complex Startup project.",
-        "Developed the web application from initial UI design using Vue.js and NuxtJS frameworks with members of a team of 4 people.",
-        "Translating UI designs to maintainable code with clean code architecture and connecting to backend service using Rest API.",
-        "Took charge of developing MVP as a team member and working overtime to ensure that it got completed by the deadline.",
-        "Updated the project Vue.js version from 2 to 3 along with typescript and used composable functions to create reusable code."
+        "Managed website development project from initial design through completion and led tasks alone in the first 6 months.",
+        "Cooperated closely with Backend developers, UI/UX designers, and QA and implemented over 10 main product features.",
+        "Developed the website responsively, Improved the global search engine ranking by implementing Google’s Page Speed toolkit, which led to multiplied mobile users traffic and raised company revenue.",
+        "Rebuilt the 10-year-old website with modern web technologies and added multi-language support, resulting in increased users satisfactions.",
       ],
     },
     {
@@ -43,12 +30,12 @@ const Experiences = () => {
       date: "JUN 2022 - SEP 2022",
       type: "Full Time",
       description: [
-        "Translated UI designs to actual code by working closely with UI/UX designers and asking them to design every page with different statuses and a complete design system. Coded the entire design system and pages with TailwindCSS, Next.js, and Typescript.",
-        "Delivered at least 2 React.js Web UI projects with cross-browser compatible pages using the latest web technologies.",
-        "Communicated with the team to meet the client's requirements, goals, and desired functionality. Had meetings with the Manager to solve the project issues.",
-        "Had a chance to manage a project and create tickets for the project.",
-        "Coded Next.js typescript web application with a clean structure. Architected a scalable, reliable, and reusable Next.js boilerplate for the company to speed up development for future projects.",
-        "Used HLS protocol to build a video streaming web application with full support for all kinds of devices.",
+        "Increased the company’s clients and credibility by delivering at least 2 products and 20+ new features.",
+        "Supervised the organization and preparation of 2 new employees for the company goals.",
+        "Converted Figma designs to pixel-perfect and high-quality responsive frontend components.",
+        "Participated as a team member to deliver high-quality MVP in a short 7 days time frame and get customer feedback.",
+        "Reduced website loading time by 10% by optimizing the bundle size which leads to better user experiences.",
+        "Translated design system into reusable and maintainable front-end component libraries.",
       ],
     },
   ];

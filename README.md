@@ -4,8 +4,6 @@
 [![Website Badge](https://img.shields.io/badge/-mortezasabihi.com-4c51bf?style=flat&logo=Google-Chrome&logoColor=white&link=https://mortezasabihi.com)](https://mortezasabihi.com)
 [![Gmail Badge](https://img.shields.io/badge/-morteza.sabihi-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:morteza.sabihi@gmail.com)](mailto:morteza.sabihi@gmail.com)
 
-<h2>I'm <a href="https://www.linkedin.com/in/mortezasabihi/"><b>#OPENTOWORK</b></a></h2>
-
 <p>Welcome to my profile! I'm a <b>Front-end</b> developer 👨🏻‍💻</p>
 
 <h3>Things I code with:</h3>
